@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 import axios from "axios";
-import Swal from "sweetalert2";
+// import Swal from "sweetalert2";
 
 const baseURL = "http://localhost:3000/";
 export const usePiniaStore = defineStore("piniaStore", {
