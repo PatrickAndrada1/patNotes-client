@@ -2,7 +2,8 @@ import { defineStore } from "pinia";
 import axios from "axios";
 import Swal from "sweetalert2";
 
-const baseURL = "https://patnotes-server.onrender.com/"
+// const baseURL = "https://patnotes-server.onrender.com/"
+const baseURL = "https://localhost:3000/"
 
 export const usePiniaStore = defineStore("piniaStore", {
   state: () => ({
