@@ -37,7 +37,7 @@ export const usePiniaStore = defineStore("piniaStore", {
           color: "white",
           icon: "error",
           title: "Oops...",
-          text: error.response.data.message,
+          text: error.response,
           footer: "",
         });
         console.log(error);
